@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <header style="font-family:Arial, Helvetica, sans-serif"> 
+            <h1 style="text-align: center; background-color: rgb(140, 0, 255); color: cornsilk">Eleana's Blog</h1>
+            <div class="topnav">
+                <a class="active" href="#introduction">Home</a>
+                <a href="#coding">Coding Hacks</a>
+                <a href="#additionalinfo">Useful Info</a>
+                <a href="#feedback">Feedback</a>
+            </div>
+        </header>
+
+        <section id="introduction">
+            <h3 style="color: rgb(140, 0, 255); font-family: Arial, Helvetica, sans-serif;"><u>About Me</u></h3>
+            <img src="skydive.JPG" height="180" width="250" alt="skydive" class="center">
+            <p><em>"Those who don't jump will never learn to fly"</em></p>
+        </section>
+
+        <section id="coding" style="font-family: Arial, Helvetica, sans-serif">
+            <h3 style="color: rgb(140, 0, 255)"><u>Coding Hacks</u></h3>
+            <img src="https://media1.giphy.com/media/24652QfeZzNIPzoH36/giphy.gif" height="150" width="150" alt="coding rocks gif">
+            <h4 style="color: rgb(140, 0, 255);">Katas</h4>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <table>
+                <thead>
+                    <th scope="col" rowspan="2" style="width:50%">Kata Name</th>
+                    <th scope="col" colspan="3">Language Completed In</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>JavaScript</td>
+                        <td>Python</td>
+                        <td>C#</td>
+                    </tr>
+                    <tr>
+                        <td>Fizz Buzz</td>
+                        <td><i class="fa fa-check"></i></td>
+                        <td><i class="fa fa-remove"></i></td>
+                        <td><i class="fa fa-remove"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Roman Numerals</td>
+                        <td><i class="fa fa-check"></i></td>
+                        <td><i class="fa fa-remove"></i></td>
+                        <td><i class="fa fa-remove"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Poker</td>
+                        <td><i class="fa fa-check"></i></td>
+                        <td><i class="fa fa-remove"></i></td>
+                        <td><i class="fa fa-remove"></i></td>
+                    </tr>
+                </tbody>
+            </table> <br><br>
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="40" width="40">
+            <a href="https://github.com/eleanabeardwell/Katas" target="_blank">Kata Repo</a> 
+        </section>
+    
+        <section id="additionalinfo" style="font-family: Arial, Helvetica, sans-serif">
+            <h3 style="color: rgb(140, 0, 255)"><u>Useful Links</u></h3>
+            <ul>
+                <li><a href="https://www.codecademy.com/learn/learn-html" target="_blank">CodeCademy Learn HTML</a></li>
+                <li><a href="https://www.w3schools.com/howto/default.asp" target="_blank">w3Schools HTML "How To"</a></li>
+            </ul>
+        </section>
+    
+        <section id="feedback" style="font-family: Arial, Helvetica, sans-serif;">
+            <h3 style="color: rgb(140, 0, 255)"><u>Feedback</u></h3>
+            <form action="" method="POST">
+                <section class="rating">
+                    <label for="rating">Please rate my blog!</label>
+                    <br><br>
+                    <span>Crap</span>
+                    <input type="range" name="rating" id="rating" min="1" max="10">
+                    <span>Out of This World</span>
+                </section> <br><br>
+                <section class="comments">
+                    <label for="extra">Any additional comments?</label>
+                    <br><br>
+                    <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+                </section>
+                <section class="submission">
+                    <input type="submit" value="Submit Here">
+                </section>
+            </form>   
+        </section>        
+    </body>
+</html>
