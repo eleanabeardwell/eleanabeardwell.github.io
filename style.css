@@ -4,23 +4,29 @@ body {
     font-family: 'Fira Sans', sans-serif;
 }
 
-.topnav {
+#topnav {
     background-color: lightgray;
-    height: 50px;
-
+    height: 53px;
 }
 
-.topnav a {
-    color: black;
+#topnav a {
+    color: #000;
     text-align: center;
     float: left;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
+    border-right: 1px dotted #000;
 }
 
-.topnav a:hover {
-    background-color: rgb(159, 238, 231)
+#topnav a.github-link {
+    float: right;
+    padding: 6px 10px 3px 10px;
+    border-left: 1px dotted #000;
+}
+
+#topnav a:hover {
+    background-color: rgb(159, 238, 231);
 }
 
 .logo {
@@ -28,5 +34,3 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
-rgb(104, 236, 223)
